@@ -12,24 +12,113 @@
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <li><a href="#pg-inicial">Pagina princiapl</a></li>
+                <li><a href="#sobre">Sobre a clínica</a></li>
+                <li><a href="#horario-atendimento">Horário de atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <figure>
+                    <img src="./img/download.png" alt="">
+                    <figcaption>Imagem de clínica veterinária</figcaption>
+                </figure>
+                <h1>
+                    Clínica veterinário Gomes
+                </h1>
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <fieldset id="pg-inicial">
+                    <legend>Página inicial</legend>
+                    <p>Clínica veterinária Gomes, como diz o grande Gomes: <blockquote>grande para servir aos seus pets e pequena para se importar com cada cliente.</blockquote> abaixo seguem algumas imagens dos nossos clientes de 4 patas:</p>
+                    
+                    <picture>
+                        <img src="./img/download (2).jpg" alt="Bicho">
+                        <source srcset="./img/download (3).jpg"  media="(min-width: 200px)">
+                        <figcaption>Boi</figcaption>
+                    </picture>
+                    <figure>
+                        <img src="./img/download.jpg" alt="">
+                        <figcaption>Cavalo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/download (3).jpg" alt="">
+                        <figcaption>Cachorro</figcaption>
+                    </figure>
+                </fieldset>
+
+                <fieldset id="sobre">
+                    <legend>Sobre a clínica</legend>
+                    <article>
+                        <p>A clínica super Gomes é um ambiente saudavel e de cuidado com cada pet nesse mundo, desde 1857 atuando e tratando diferentes raças e especies, com excelencia, praticidade e eficiência</p>
+                    </article>
+                </fieldset>
+
+                <fieldset id="horario-atendimento">
+                    <legend>Horários de atendimento</legend>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Servicos</th>
+                                <th>Segunda a sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Clínica geral</th>
+                                <th>8h - 00h</th>
+                                <th>8h - 12h</th>
+                                <th>Não abre</th>
+                            </tr>
+                            <tr>
+                                <th>Otorrino pet</th>
+                                <th>8h - 00h</th>
+                                <th>8h - 12h</th>
+                                <th>Não abre</th>
+                            </tr>
+                            <tr>
+                                <th>Pediatra pet</th>
+                                <th>8h - 00h</th>
+                                <th>8h - 12h</th>
+                                <th>Não abre</th>
+                            </tr>
+                            <tr>
+                                <th>Oftalmo pet</th>
+                                <th>8h - 00h</th>
+                                <th>8h - 12h</th>
+                                <th>Não abre</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <form action="">
+                        <input type="text" placeholder="nome">
+                        <input type="email" placeholder="email">
+                        <input type="text" placeholder="assunto">
+                        <textarea></textarea>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Resetar</button>
+                    </form>
+                </fieldset>
+                <fieldset>
+                    <legend>Informações</legend>
+                    <label for="">Endereço da clínica</label>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.4961945690616!2d-47.47692622028672!3d-23.47863068479877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f53a3f1d4fcd%3A0x27d1958ba04c31bf!2sCl%C3%ADnica%20IMED%20Sa%C3%BAde%20-%20Unidade%201%20-%20Itavuvu!5e0!3m2!1spt-BR!2sbr!4v1679057615814!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h2>Telefone para contato:</h2>
+                    <p>99282-8282</p>
+                    <p>00000-2323</p>
+                </fieldset>
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                Todos os direitos reservados à João
             </div>
         </div>
     </div>
